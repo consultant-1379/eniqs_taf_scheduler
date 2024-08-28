@@ -1,0 +1,45 @@
+<schedule>
+    <item-group parallel="true">
+	         	<item stop-on-fail="false"> <name>TAF Executor</name>
+          	    <component>com.ericsson.oss.smo.testware:ERICTAFsmo_CXP9030967:1.0.186</component>
+              	<suites>SMO_CDB_Transaction.xml</suites>
+                  
+          	</item>
+  			<!--PMS Test suite-->
+              <item stop-on-fail="false"> <name>TAF Executor</name>
+              	<component>com.ericsson.pms.testware:ERICTAFPMS_CXP9030856:1.0.397</component>
+              	<suites>CDBSuite.xml</suites>
+              	
+              </item>
+       		<!-- SECURITY Test suite-->
+            	<item stop-on-fail="false"> <name>TAF Executor</name>
+              	<component>com.ericsson.oss.security.testware:ERICTAFpfsec_CXP9031049:1.0.555</component>
+              	<suites>PFSEC_CDB_Transaction.xml</suites>
+              	
+            	</item>
+           	<item stop-on-fail="false"> <name>TAF Executor</name>
+            	<component>com.ericsson.oss.cex:ERICTAFcex_CXP9030965:1.0.352</component>
+            	<suites>cex-kgb-suite.xml</suites>
+               	
+         	</item>
+         	<!-- BCG Test suite-->
+        	<item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.bcg.testware:ERICTAFbcg_CXP9030907:1.9.236</component>
+                <suites>Bcg_CDB_Import_Export.xml,OSS-27134_ExportFunctional_STKPI.xml</suites>
+                
+        	</item> 
+         	<!-- RPS Test suite-->
+         	<item stop-on-fail="false"> <name>TAF Executor</name>
+              	<component>com.ericsson.oss.rps:ERICTAFrps_CXP9030966:1.0.311</component>
+              	<suites>rps_suite.xml</suites>
+              	
+         	</item>
+      		<item stop-on-fail="false"> <name>TAF Executor</name>
+				<component>com.ericsson.oss.bsim:ERICTAFbsim_CXP9030600:1.0.657</component>
+				<suites>Bsim_CDB_Suite.xml</suites>
+				
+			</item>
+        
+  </item-group>
+  
+</schedule>

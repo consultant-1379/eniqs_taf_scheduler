@@ -1,0 +1,33 @@
+<schedule>
+         <item> 
+                 <component>com.ericsson.oss.smo.test-pom-smo_taf_test</component>
+                 <suite>SMO_CDB_Transaction.xml</suite> 
+                 <stop_on_fail>false</stop_on_fail>
+        </item>
+
+         <!-- PMS Test Suite-->
+            <item> 
+                <component>com.ericsson.pms.test-pom-pms_taf</component>
+                <suite>CDBSuite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+            </item>
+         <!-- SECURITY Test Suite-->
+          <item>
+              <component>com.ericsson.oss.security.test-pom</component>
+              <suite>PFSEC_CDB_Transaction.xml</suite>
+              <stop_on_fail>false</stop_on_fail>
+          </item>
+         <!-- GRAN test suite -->
+       <item>
+        <component>com.ericsson.oss.grancm.test-pom-grancm_test</component>
+        <suite>grancmbsmVCDBtest-suite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+	<!-- BSIM suite -->
+        <item>
+                <component>com.ericsson.oss.bsim.test-pom</component>
+                <suite>Bsim_CDB_Suite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+
+</schedule>

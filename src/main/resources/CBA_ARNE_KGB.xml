@@ -1,0 +1,9 @@
+<schedule>
+     <!--NNI Network Test Suite-->
+     <item> 
+         <component>com.ericsson.oss.nni.test-pom-nni_test</component>
+         <suite>CBA_ARNE_Suite.xml</suite> 
+         <stop_on_fail>false</stop_on_fail>
+     </item>
+
+</schedule>

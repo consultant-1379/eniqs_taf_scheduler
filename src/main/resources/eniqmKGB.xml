@@ -1,0 +1,10 @@
+<schedule>
+	<item>
+                <component>com.ericsson.eniqm.test-pom-eniqm_taf</component>
+                <suite>testsuite.xml</suite>
+                <stop_on_fail>true</stop_on_fail>
+        </item>
+</schedule>
+
+	
+

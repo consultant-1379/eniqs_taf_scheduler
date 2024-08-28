@@ -1,0 +1,7 @@
+<schedule>
+    <item> 
+        <component>com.ericsson.oss.security.test-pom</component>
+        <suite>PFSEC_CDB_Transaction.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

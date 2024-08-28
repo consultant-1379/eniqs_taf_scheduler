@@ -1,0 +1,18 @@
+<schedule>
+    <!-- Team Network Test Suite-->
+    <item> 
+        <component>com.ericsson.pms.test-pom-pms_taf</component>
+        <suite>PMSKGBTestCasesQuick.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+    <!--<item> 
+        <component>com.ericsson.pms.test-pom-pms_taf</component>
+	<suite>CDBSuite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>-->
+    <item>
+    	<component>com.ericsson.cifwk.taf.cdb-manual</component>
+    	<suite>manual_test.xml</suite>
+    	<stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

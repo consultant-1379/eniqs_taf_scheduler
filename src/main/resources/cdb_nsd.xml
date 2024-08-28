@@ -1,0 +1,9 @@
+<schedule>
+    <!-- NSD Test Suite-->
+    <item> 
+        <component>com.ericsson.nsd.taf.test-pom-psnsd</component>
+        <suite>NSDCDBStatusView.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

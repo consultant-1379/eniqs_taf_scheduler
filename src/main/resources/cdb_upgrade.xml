@@ -1,0 +1,6 @@
+<schedule>
+	<item>
+		<component>com.ericsson.ci.cloud.cdb_ossrc_install.cite-tests</component>
+		<suite>upgrade.xml</suite>
+		<stop_on_fail>true</stop_on_fail>
+	</item>

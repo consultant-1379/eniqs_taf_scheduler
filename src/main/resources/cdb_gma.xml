@@ -1,0 +1,9 @@
+<schedule>
+    <!-- GMA Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.gma.test-pom-gma-testware</component>
+        <suite>gmaCDBSuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

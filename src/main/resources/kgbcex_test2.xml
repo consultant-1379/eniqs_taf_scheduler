@@ -1,0 +1,9 @@
+<schedule>
+    <!-- CEX Dummy Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.cex.test-pom-cex</component>
+        <suite>testsuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

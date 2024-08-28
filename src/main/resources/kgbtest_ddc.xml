@@ -1,0 +1,7 @@
+<schedule>
+	<item>
+		<component>com.ericsson.oss.ddc.test-pom</component>
+		<suites>DDCGenericInterface.xml,FunctionalTest_Functional.xml</suites>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+</schedule>

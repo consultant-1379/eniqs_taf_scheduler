@@ -1,0 +1,11 @@
+<schedule>
+    <!-- EPCMPEP Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.mpep.test-pom-mpep-testware</component>
+        <suite>mpepCDBSuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>
+
+

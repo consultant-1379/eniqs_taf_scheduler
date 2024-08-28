@@ -1,0 +1,28 @@
+<schedule>
+         <item>
+                <component>com.ericsson.bcg.test-pom</component>
+                <suite>Bcg_CDB_Import_Export.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+         </item>
+         <!-- CEX Test Suite-->
+         <item>
+               <component>com.ericsson.oss.cex.test-pom-cex</component>
+               <suite>cex-kgb-suite.xml</suite>
+               <stop_on_fail>false</stop_on_fail>
+         </item>
+      	<item>
+		<component>com.ericsson.oss.bsim.test-pom</component>
+		<suite>Bsim_CDB_Suite.xml</suite>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+        <item>
+                <component>com.ericsson.oss.nma.taf.test-pom-nma_taf</component>
+                <suite>NMA_FunctionalCDB.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+        <item>
+                <component>com.ericsson.nsd.taf.test-pom-psnsd</component>
+                <suite>NSDCDBStatusView.xml</suite> 
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+</schedule>

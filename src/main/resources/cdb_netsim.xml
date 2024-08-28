@@ -1,0 +1,7 @@
+<schedule>
+	<item>
+		<component>com.ericsson.ci.cloud.ossrc_cdb_setup.test-pom</component>
+		<suite>nodeSetup.xml</suite>
+		<stop_on_fail>true</stop_on_fail>
+	</item>
+</schedule>

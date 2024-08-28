@@ -1,0 +1,13 @@
+<schedule>
+	<!-- Install Package-->
+	            <item>
+	  <component>com.ericsson.ci.cloud.ossrc_cdb_setup.test-pom</component>
+	     <suite>installPackages.xml</suite>
+	        <stop_on_fail>true</stop_on_fail>
+	            </item>
+	           <item>
+	          <component>com.ericsson.bcg.test-pom</component>
+	         <suite>Bcg_CDB_Import_Export.xml</suite>
+	        <stop_on_fail>false</stop_on_fail>
+	          </item>
+	</schedule>

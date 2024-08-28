@@ -1,0 +1,7 @@
+<schedule>
+	<item>
+		<component>com.ericsson.oss.monitoring.test-pom</component>
+		<suites>MONITORING_Functional.xml</suites>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+</schedule>

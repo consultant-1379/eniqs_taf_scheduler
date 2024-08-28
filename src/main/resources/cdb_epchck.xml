@@ -1,0 +1,9 @@
+<schedule>
+    <!-- EPCHCK Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.hck.hck-testware</component>
+        <suite>hckCDBSuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

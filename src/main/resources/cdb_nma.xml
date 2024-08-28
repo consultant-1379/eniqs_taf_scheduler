@@ -1,0 +1,8 @@
+<schedule>
+    <!-- NMA Test Suite-->
+    <item>
+        <component>com.ericsson.oss.nma.taf.test-pom-nma_taf</component>
+        <suite>NMA_FunctionalCDB.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

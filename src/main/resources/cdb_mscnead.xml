@@ -1,0 +1,9 @@
+<schedule>
+    <!-- MSCNEAD Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.mscnead.test-pom-mscnead-testware</component>
+        <suite>mmaCDBSuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

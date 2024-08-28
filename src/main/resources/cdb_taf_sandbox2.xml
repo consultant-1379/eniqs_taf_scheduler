@@ -1,0 +1,27 @@
+<schedule>
+<!--
+            <item>
+                <component>com.ericsson.oss.arne.test-pom-ARNE_test</component>
+                <suite>ARNE-VCDB_Suite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+           </item>
+           <item>
+                <component>com.ericsson.oss.arne.test-pom-ARNE_test</component>
+                <suite>ARNE-STCDB_Suite.xml</suite>
+        	<stop_on_fail>false</stop_on_fail>
+		   </item>
+
+           <item>
+                <component>com.ericsson.pms.test-pom-pms_taf</component>
+                <suite>CDBSuite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+           </item>
+-->
+
+       	<item>
+                <component>com.ericsson.oss.security.test-pom</component>
+                <suite>sandbox_suite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+           </item>
+
+</schedule>

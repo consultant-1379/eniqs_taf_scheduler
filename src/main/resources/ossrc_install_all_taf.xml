@@ -1,0 +1,175 @@
+<schedule>
+	<item>
+		<component>com.ericsson.ci.cloud.ossrc_cdb_setup.test-pom</component>
+		<suite>installDependent.xml</suite>
+		<stop_on_fail>true</stop_on_fail>
+	</item>
+         <!-- BCG Test Suite-->
+         <item>
+                <component>com.ericsson.bcg.test-pom</component>
+                <suite>Bcg_CDB_Import_Export.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+         </item>
+         <!-- CEX Test Suite-->
+         <item>
+               <component>com.ericsson.oss.cex.test-pom-cex</component>
+               <suite>cex-kgb-suite.xml</suite>
+               <stop_on_fail>false</stop_on_fail>
+         </item>
+         <!-- RPS Test Suite-->
+         <item>
+              <component>com.ericsson.oss.rps.test-pom-rps</component>
+              <suite>rps_suite.xml</suite>
+              <stop_on_fail>false</stop_on_fail>
+         </item>
+      	<item>
+		<component>com.ericsson.oss.bsim.test-pom</component>
+		<suite>Bsim_CDB_Suite.xml</suite>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+        <item>
+                <component>com.ericsson.oss.nma.taf.test-pom-nma_taf</component>
+                <suite>NMA_FunctionalCDB.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+        <item>
+                <component>com.ericsson.nsd.taf.test-pom-psnsd</component>
+                <suite>NSDCDBStatusView.xml</suite> 
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+<!--        <item>
+                <component>com.ericsson.oss.dmr.test-pom-dmr_TAF</component>
+                <suite>DMR_Functional.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+        <item>
+                <component>com.ericsson.oss._3pp.test-pom-3pp_taf</component>
+                <suite>ATTSuite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+-->
+	<!-- EPCHCK Test Suite-->
+        <item> 
+        	<component>com.ericsson.oss.hck.test-pom</component>
+                <suite>hckCDBSuite.xml</suite> 
+                <stop_on_fail>false</stop_on_fail>
+        </item>	
+	<!-- EPCMPEP Test Suite-->
+        <item> 
+                <component>com.ericsson.oss.mpep.test-pom-mpep-testware</component>
+                <suite>mpepCDBSuite.xml</suite> 
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+	<!-- SD Test Suite-->
+	<item>
+		<component>com.ericsson.oss.sd.test-pom-selfdiagnose-testware</component>
+		<suite>sdCDBSuite.xml</suite>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+	<!-- GMA Test Suite-->
+	<item>
+		<component>com.ericsson.oss.gma.test-pom-gma-testware</component>
+                <suite>gmaCDBSuite.xml</suite> 
+                <stop_on_fail>false</stop_on_fail>
+	</item>
+	<!-- MSCNEAD Test Suite-->
+        <item> 
+                <component>com.ericsson.oss.mscnead.test-pom-mscnead-testware</component>
+                <suite>mmaCDBSuite.xml</suite> 
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+        <!-- PSSNAD Test Suite-->
+        <item> 
+                <component>com.ericsson.oss.pssnad.test-pom-pssnad-testware</component>
+                <suite>pssnadCDBSuite.xml</suite> 
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+        <!-- DNS Test Suite-->
+	<item> 
+                 <component>com.ericsson.oss.dc.test-pom-dc-testware</component>
+                 <suite>dcCDBSuite.xml</suite> 
+                 <stop_on_fail>false</stop_on_fail>
+	</item>
+        <!-- PCPB Test Suite-->
+	<item> 
+                 <component>com.ericsson.oss.pcpb.test-pom-pcpb-testware</component>
+                 <suite>pcpbCDBSuite.xml</suite> 
+                 <stop_on_fail>false</stop_on_fail>
+        </item>
+         <item>
+               <component>com.ericsson.oss.cominf.test-pom-cominf-testware</component>
+               <suite>CominfCdbSuite.xml</suite>
+               <stop_on_fail>false</stop_on_fail>
+         </item>
+         <!-- CMS Test Suite
+         <item>
+              <component>com.ericsson.oss.cms.test-pom-cms-taf</component>
+              <suite>CdbSuite.xml</suite>
+              <stop_on_fail>false</stop_on_fail>
+         </item> 
+-->
+         <!-- FM Test Suite-->
+         <item>
+              <component>com.ericsson.oss.fm.test-pom-FM_test</component>
+              <suite>Deliverability.xml,WRAN-CD.xml,ATNTTOL.xml</suite>
+              <stop_on_fail>false</stop_on_fail>
+         </item>      
+         <!-- ATT Test Suite-->
+            <item>
+                <component>com.ericsson.oss._3pp.test-pom-3pp_taf</component>
+                <suite>ATTSuite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+           </item>
+         <!-- DDC Test Suite-->
+            <item> 
+ 		<component>com.ericsson.oss.ddc.test-pom</component>
+                <suites>DDCGenericInterface.xml,FunctionalTest_Functional.xml</suites>
+                <stop_on_fail>false</stop_on_fail>
+            </item>
+	 <!-- AXM test suite -->
+            <item>
+                <component>com.ericsson.oss.axm.test-pom-axm_test</component>
+                <suite>Network_ElementConnectivity_Functional.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+            </item>
+
+         <!-- NSS test suite -->
+           <item>
+                <component>com.ericsson.oss.shm.taf.test-pom</component>
+                <suite>ATT_SampleSuite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+           </item>
+
+         <!-- PCI test suite 
+           <item>
+                <component>com.ericsson.oss.pci.test-pom-pci_taf</component>
+                <suite>pcicdb-suite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+            </item>
+	-->
+          <!-- SMO Test Suite -->
+          <item> 
+                 <component>com.ericsson.oss.smo.test-pom-smo_taf_test</component>
+                 <suite>SMO_CDB_Transaction.xml</suite> 
+                 <stop_on_fail>false</stop_on_fail>
+        </item>
+
+         <!-- PMS Test Suite-->
+            <item> 
+                <component>com.ericsson.pms.test-pom-pms_taf</component>
+                <suite>CDBSuite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+            </item>
+         <!-- SECURITY Test Suite-->
+          <item>
+              <component>com.ericsson.oss.security.test-pom</component>
+              <suite>PFSEC_CDB_Transaction.xml</suite>
+              <stop_on_fail>false</stop_on_fail>
+          </item>
+     <!-- GRAN test suite -->
+       <item>
+        <component>com.ericsson.oss.grancm.test-pom-grancm_test</component>
+        <suite>grancmbsmVCDBtest-suite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

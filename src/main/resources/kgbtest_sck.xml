@@ -1,0 +1,8 @@
+<schedule>
+	<!-- Installation only testware-->
+	<item>
+		<component>com.ericsson.ci.cloud.cdb_ossrc_install.cite-tests</component>
+		<suite>onlyInstall.xml</suite>
+		<stop_on_fail>true</stop_on_fail>
+	</item>
+</schedule>

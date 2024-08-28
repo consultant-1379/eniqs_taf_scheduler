@@ -1,0 +1,14 @@
+<schedule>
+   <!-- CEX CDB Test Suite with manual report-->
+    <item> 
+        <component>com.ericsson.oss.cex.test-pom-cex</component>
+        <suite>cex-kgb-suite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+<item>
+    <component>com.ericsson.cifwk.taf.cdb-manual</component>
+    <suite>manual_test.xml</suite>
+    <stop_on_fail>false</stop_on_fail>
+  </item>
+
+</schedule>

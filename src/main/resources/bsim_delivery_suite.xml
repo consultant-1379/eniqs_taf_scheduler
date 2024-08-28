@@ -1,0 +1,13 @@
+<schedule>
+	<!-- BSIM Delivery Suite-->
+	<item>
+		<component>com.ericsson.oss.bsim.test-pom</component>
+		<suite>Bsim_KGB_Suite.xml </suite>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+	<item>
+		<component>com.ericsson.cifwk.taf.cdb-manual</component>
+		<suite>manual_test.xml</suite>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+</schedule>

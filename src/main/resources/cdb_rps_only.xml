@@ -1,0 +1,12 @@
+<schedule>
+        <item>
+                <component>com.ericsson.oss.rps.test-pom-rps</component>
+                <suite>rps_suite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+        <item>
+                <component>com.ericsson.bcg.test-pom</component>
+                <suite>OSS-27134_Functional.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+</schedule>

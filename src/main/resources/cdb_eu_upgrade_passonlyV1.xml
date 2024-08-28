@@ -1,0 +1,62 @@
+<schedule>
+
+<item>
+                <component>com.ericsson.bcg.test-pom</component>
+                <suite>Bcg_CDB_Import_Export.xml,OSS-27134_ExportFunctional_STKPI.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+         <item>
+               <component>com.ericsson.oss.cex.test-pom-cex</component>
+               <suite>cex-kgb-suite.xml</suite>
+               <stop_on_fail>false</stop_on_fail>
+         </item>
+
+         <!-- RPS Test Suite-->
+         <item>
+              <component>com.ericsson.oss.rps.test-pom-rps</component>
+              <suite>rps_suite.xml</suite>
+              <stop_on_fail>false</stop_on_fail>
+         </item> 
+          <item>
+                <component>com.ericsson.oss.nma.taf.test-pom-nma_taf</component>
+                <suite>NMA_FunctionalCDB.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+        <item>
+                <component>com.ericsson.nsd.taf.test-pom-psnsd</component>
+                <suite>NSDCDBStatusView.xml</suite> 
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+<!--        <item>
+                <component>com.ericsson.oss.dmr.test-pom-dmr_TAF</component>
+                <suite>DMR_Functional.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+-->
+        <!-- EPCHCK Test Suite-->
+        <item> 
+                <component>com.ericsson.oss.hck.test-pom</component>
+                <suite>hckCDBSuite.xml</suite> 
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+        <item>
+                <component>com.ericsson.oss.sd.test-pom-selfdiagnose-testware</component>
+                <suite>sdCDBSuite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+           
+                      
+                <!-- AXM test suite -->
+        <item>
+                <component>com.ericsson.oss.axm.test-pom-axm_test</component>
+                <suite>Network_ElementConnectivity_Functional.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+           
+         <!-- ARNE-VCDB test suite -->
+            <item>
+                <component>com.ericsson.oss.arne.test-pom-ARNE_test</component>
+                <suite>ARNE-VCDB_Suite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+            </item>
+</schedule>

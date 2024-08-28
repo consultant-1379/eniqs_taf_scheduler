@@ -1,0 +1,14 @@
+<schedule>
+         <!-- BCG Test Suite-->
+         <item>
+                <component>com.ericsson.bcg.test-pom</component>
+                <suite>Bcg_CDB_Import_Export.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+         </item>
+<!-- CEX Test Suite-->
+         <item>
+               <component>com.ericsson.oss.cex.test-pom-cex</component>
+               <suite>cex-kgb-suite.xml</suite>
+               <stop_on_fail>false</stop_on_fail>
+         </item>
+</schedule>

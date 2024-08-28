@@ -1,0 +1,7 @@
+<schedule>
+        <item>
+                <component>com.ericsson.oss.sd.test-pom-selfdiagnose-testware</component>
+                <suite>sdCDBSuite.xml</suite>
+		<stop_on_fail>false</stop_on_fail>
+        </item>
+</schedule>

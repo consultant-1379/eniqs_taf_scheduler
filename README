@@ -1,0 +1,13 @@
+
+N.B.
+DO NOT use the master branch for any schedule files.
+The branch youi should use is detailed below.
+
+
+project         git branch
+==============  ==============
+TOR             tor_schedule
+LITP 2.x        litp2_schedule
+OSSRC           ossrc_schedule
+
+

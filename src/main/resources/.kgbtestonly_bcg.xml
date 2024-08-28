@@ -1,0 +1,10 @@
+<schedule>
+    <!-- BCG Test Suite-->
+    <item> 
+        <component>com.ericsson.bcg.test-pom</component>
+        <suite>kgbExport_wran_lte.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>
+

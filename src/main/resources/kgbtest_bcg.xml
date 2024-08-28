@@ -1,0 +1,10 @@
+<schedule>
+    <!-- BCG Test Suite-->
+    <item> 
+        <component>com.ericsson.bcg.test-pom</component>
+        <suite>kgbExport.xml, BCGExport_Functional.xml, OSS-27134_Functional.xml, OSS-27134_ExportFunctional_STKPI.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>
+

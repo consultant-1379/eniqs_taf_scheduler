@@ -1,0 +1,9 @@
+<schedule>
+    <!-- Security Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.security.test-pom</component>
+        <suite>kgb-suite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+	
+</schedule>

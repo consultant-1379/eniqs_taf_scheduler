@@ -1,0 +1,15 @@
+<schedule>
+    <!-- GMA Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.gma.test-pom-gma-testware</component>
+        <suite>gmaSuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+<item stop-on-fail="false" timeout-in-seconds="200">
+		<component>com.ericsson.cifwk.taf.cdb-manual</component>
+		<suite>manual_test.xml</suite>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+
+</schedule>

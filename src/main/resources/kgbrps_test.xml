@@ -1,0 +1,13 @@
+<schedule>
+    <!-- RPS Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.rps.test-pom-rps</component>
+        <suite>rps-kgb-suite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+<item>
+    <component>com.ericsson.cifwk.taf.cdb-manual</component>
+    <suite>manual_test.xml</suite>
+    <stop_on_fail>false</stop_on_fail>
+  </item>
+</schedule>

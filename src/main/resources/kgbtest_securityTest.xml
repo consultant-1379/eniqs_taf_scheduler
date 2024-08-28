@@ -1,0 +1,10 @@
+<schedule>
+    <!-- Security Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.security.test-pom</component>
+        <suite>install.xml</suite> 
+        <stop_on_fail>true</stop_on_fail>
+    </item>
+   
+  
+</schedule>

@@ -1,0 +1,9 @@
+<schedule>
+    <!-- PCI Test Suite-->
+    <item>
+        <component>com.ericsson.oss.pci.test-pom-pci_taf</component>
+        <suite>allure.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+      
+</schedule>

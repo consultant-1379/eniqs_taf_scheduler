@@ -1,0 +1,7 @@
+<schedule>
+    <item>
+        <component>com.ericsson.eniq.ERIC-ENIQ-platform-taf.PostInstallation.test-pom-PostInstallation</component>
+        <suite>PostInstallationTestSuit.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

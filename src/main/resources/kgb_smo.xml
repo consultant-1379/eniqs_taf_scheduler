@@ -1,0 +1,7 @@
+ <schedule>
+      <item>
+         <component>com.ericsson.oss.smo.test-pom-smo_taf_test</component>
+	     <suite>SMO_KGB_Transaction.xml</suite>
+	     <stop_on_fail>false</stop_on_fail>
+	</item>
+ </schedule>

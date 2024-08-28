@@ -1,0 +1,8 @@
+<schedule>
+    <item>
+            <component>com.ericsson.oss._3pp.test-pom-3pp_taf</component>
+	    <suite>ATTSuite.xml</suite>
+	    <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>
+

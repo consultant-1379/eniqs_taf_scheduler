@@ -1,0 +1,14 @@
+<schedule>
+    <!-- RPS Test Suite-->
+<item>
+	        <component>com.ericsson.ci.cloud.ossrc_cdb_setup.test-pom</component>
+		<suite>installPackages.xml</suite>
+		<stop_on_fail>true</stop_on_fail>
+	</item>
+    <item> 
+        <component>com.ericsson.oss.rps.test-pom-rps</component>
+        <suite>rps-kgb-suite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

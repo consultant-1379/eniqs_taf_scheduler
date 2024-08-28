@@ -1,0 +1,14 @@
+<schedule>
+    <!-- PCI Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.pci.test-pom-pci_taf</component>
+        <suite>pcikgb-suite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+       <!-- Manual Test Suite-->
+        <item>
+                <component>com.ericsson.cifwk.taf.cdb-manual</component>
+                <suite>manual_test.xml</suite>
+                <stop_on_fail>false </stop_on_fail>
+        </item>
+</schedule>

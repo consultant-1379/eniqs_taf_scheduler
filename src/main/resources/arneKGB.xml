@@ -1,0 +1,20 @@
+<schedule>
+	<item>
+                <component>com.ericsson.oss.arne.test-pom-ARNE_test</component>
+                <suite>ARNE-KGB_Suite.xml</suite>
+                <stop_on_fail>true</stop_on_fail>
+        </item>
+	<item>
+                <component>com.ericsson.oss.arne.test-pom-ARNE_test</component>
+                <suite>ARNE-FtpServer_Import.xml</suite>
+                <stop_on_fail>true</stop_on_fail>
+        </item>
+	<item>
+                <component>com.ericsson.ci.cloud.ossrc_cdb_setup.test-pom</component>
+                <suite>onlyArneImport.xml</suite>
+                <stop_on_fail>true</stop_on_fail>
+        </item>
+</schedule>
+
+	
+

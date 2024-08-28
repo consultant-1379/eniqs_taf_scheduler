@@ -1,0 +1,8 @@
+<schedule>
+    <!-- NMA Test Suite 15A-->
+    <item>
+        <component>com.ericsson.oss.nma.taf.test-pom-nma_taf</component>
+        <suite>NMA_Functional15A.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

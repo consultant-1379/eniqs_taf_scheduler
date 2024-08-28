@@ -1,0 +1,7 @@
+<schedule>
+<item>
+<component>com.ericsson.oss.eba.test-pom-eba_taf_test</component>
+<suite>EbaTestKgb-suite.xml</suite>
+<stop_on_fail>false</stop_on_fail>
+</item>
+</schedule>

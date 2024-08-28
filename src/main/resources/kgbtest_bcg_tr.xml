@@ -1,0 +1,15 @@
+<schedule>
+    <!-- BCG Test Suite-->
+    <item> 
+        <component>com.ericsson.bcg.test-pom</component>
+        <suite>OSS-27134_ExportFunctional_STKPI.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+	<item stop-on-fail="false" timeout-in-seconds="200">
+		<component>com.ericsson.cifwk.taf.cdb-manual</component>
+		<suite>manual_test.xml</suite>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+</schedule>
+

@@ -1,0 +1,9 @@
+<schedule>
+    <!-- Team Network Test Suite-->
+    <item> 
+        <component>com.ericsson.nms.litp.taf.test-pom-network</component>
+        <suite>calculatortest-suite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

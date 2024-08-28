@@ -1,0 +1,22 @@
+<schedule>
+    <item>
+        <component>com.ericsson.oss.cms.test-pom-cms-legacy-testware</component>
+        <suite>master_batch_1.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+    <item>
+        <component>com.ericsson.oss.cms.test-pom-cms-legacy-testware</component>
+        <suite>master_batch_2.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+    <item>
+        <component>com.ericsson.oss.cms.test-pom-cms-legacy-testware</component>
+        <suite>master_batch_3.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+    <item>
+        <component>com.ericsson.oss.cms.test-pom-cms-legacy-testware</component>
+	<suite>proxy_batch_1.xml</suite>
+	<stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

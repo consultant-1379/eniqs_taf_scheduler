@@ -1,0 +1,195 @@
+<schedule>
+  <item-group parallel="false">
+    <item-group>
+      <item stop-on-fail="true">
+          <name>TAF Executor</name>
+          <component>com.ericsson.ci.cloud.testware:ERICTAFossrc_CXP9031433:1.0.7</component>
+          <suites>onlyInstall.xml</suites>
+      </item>
+    </item-group>
+    <item-group parallel="true">
+  		<item-group parallel="false">
+          	<item stop-on-fail="false"> <name>TAF Executor</name>
+          	    <component>com.ericsson.oss.smo.testware:ERICTAFsmo_CXP9030967:1.0.186</component>
+              	<suites>SMO_CDB_Transaction.xml</suites>
+                  
+          	</item>
+  			<!--PMS Test suite-->
+              <item stop-on-fail="false"> <name>TAF Executor</name>
+              	<component>com.ericsson.pms.testware:ERICTAFPMS_CXP9030856:1.0.397</component>
+              	<suites>CDBsuites.xml</suites>
+              	
+              </item>
+       		<!-- SECURITY Test suites-->
+            	<item stop-on-fail="false"> <name>TAF Executor</name>
+              	<component>com.ericsson.oss.security.testware:ERICTAFpfsec_CXP9031049:1.0.555</component>
+              	<suites>PFSEC_CDB_Transaction.xml</suites>
+              	
+            	</item>
+   
+  		</item-group>
+		<item-group parallel="false">
+         	<item stop-on-fail="false"> <name>TAF Executor</name>
+            	<component>com.ericsson.oss.cex:ERICTAFcex_CXP9030965:1.0.352</component>
+            	<suites>cex-kgb-suites.xml</suites>
+               	
+         	</item>
+         	<!-- BCG Test suites-->
+        	<item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.bcg.testware:ERICTAFbcg_CXP9030907:1.9.236</component>
+                <suites>Bcg_CDB_Import_Export.xml,OSS-27134_ExportFunctional_STKPI.xml</suites>
+                
+        	</item> 
+         	<!-- RPS Test suites-->
+         	<item stop-on-fail="false"> <name>TAF Executor</name>
+              	<component>com.ericsson.oss.rps:ERICTAFrps_CXP9030966:1.0.311</component>
+              	<suites>rps_suites.xml</suites>
+              	
+         	</item>
+      		<item stop-on-fail="false"> <name>TAF Executor</name>
+				<component>com.ericsson.oss.bsim:ERICTAFbsim_CXP9030600:1.0.657</component>
+				<suites>Bsim_CDB_suites.xml</suites>
+				
+			</item>
+        	<item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.oss.nma.taf.testware:ERICTAFnma_CXP9031093:1.0.204</component>
+                <suites>NMA_FunctionalCDB.xml</suites>
+                
+        	</item>
+        	<item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.nsd.taf:ERICTAFpsnsd_CXP9031094:1.0.342</component>
+                <suites>NSDCDBStatusView.xml</suites> 
+                
+        	</item>
+
+			<!-- EPCHCK Test suites-->
+       		<item stop-on-fail="false"> <name>TAF Executor</name> 
+        		<component>com.ericsson.oss.hck:ERICTAFepchck_CXP9031153:1.0.139</component>
+                <suites>hckCDBsuites.xml</suites> 
+                
+        	</item>	
+			<!-- EPCMPEP Test suites-->
+        	<item stop-on-fail="false"> <name>TAF Executor</name> 
+                <component>com.ericsson.oss.mpep.testware:ERICTAFmpep_CXP9031154:1.4.84</component>
+                <suites>mpepCDBsuites.xml</suites> 
+                
+        	</item>
+			<!-- SD Test suites-->
+			<item stop-on-fail="false"> <name>TAF Executor</name>
+				<component>com.ericsson.oss.sd:ERICTAFepcsd_CXP9031146:1.0.243</component>
+				<suites>sdCDBsuites.xml</suites>
+				
+			</item>
+			<!-- GMA Test suites-->
+			<item stop-on-fail="false"> <name>TAF Executor</name>
+				<component>com.ericsson.oss.gma.testware:ERICTAFgma_CXP9031148:1.5.140</component>
+                <suites>gmaCDBsuites.xml</suites> 
+                
+			</item>
+			<!-- MSCNEAD Test suites-->
+        	<item stop-on-fail="false"> <name>TAF Executor</name> 
+                <component>com.ericsson.oss.mscnead:ERICTAFmscnead_CXP9031149:1.5.153</component>
+                <suites>mmaCDBsuites.xml</suites> 
+                
+        	</item>
+        	<!-- PSSNAD Test suites-->
+        	<item stop-on-fail="false"> <name>TAF Executor</name> 
+                <component>com.ericsson.oss.pssnad.testware:ERICTAFpssnad_CXP9031150:1.5.134</component>
+                <suites>pssnadCDBsuites.xml</suites> 
+                
+        	</item>
+        	<!-- DNS Test suites-->
+			<item stop-on-fail="false"> <name>TAF Executor</name> 
+                 <component>com.ericsson.oss.dc.testware:ERICTAFepcdc_CXP9031157:1.0.131</component>
+                 <suites>dcCDBsuites.xml</suites> 
+                 
+			</item>
+        	<!-- PCPB Test suites-->
+			<item stop-on-fail="false"> <name>TAF Executor</name> 
+                 <component>com.ericsson.oss.pcpb.testware:ERICTAFepcpcpb_CXP9031147:1.6.124</component>
+                 <suites>pcpbCDBsuites.xml</suites> 
+                 
+        	</item>
+        	<!--SMO Test suites
+			<item stop-on-fail="false"> <name>TAF Executor</name> 
+                 <component>com.ericsson.oss.smo.test-pom-smo_taf_test</component>
+                 <suites>SMO_CDB_Transaction.xml</suites> 
+                 
+        	</item>
+-->
+         	<!-- CMS Test suites-->
+         	<item stop-on-fail="false"> <name>TAF Executor</name>
+              	<component>com.ericsson.oss.cms:ERICTAFnead_CXP9031058:1.0.43</component>
+              	<suites>CppAvcsuites.xml,ManualSyncsuites.xml</suites>
+              	
+         	</item> 
+         	<!-- FM Test suites-->
+         	<item stop-on-fail="false"> <name>TAF Executor</name>
+              	<component>com.ericsson.oss.fm.testware:ERICTAFfmci_CXP9030861:1.0.255</component>
+              	<suites>Deliverability.xml,WRAN-CD.xml,ATNTTOL.xml</suites>
+              	
+         	</item>      
+          	<!-- SECURITY Test suites
+          	<item stop-on-fail="false"> <name>TAF Executor</name>
+              	<component>com.ericsson.oss.security.test-pom</component>
+              	<suites>PFSEC_CDB_Transaction.xml</suites>
+              	
+          	</item>
+-->
+         	<!-- ATT Test suites-->
+            <item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.oss._3pp.testware:ERICTAFdepl3pp_CXP9030976:1.0.274</component>
+                <suites>ATTsuites.xml</suites>
+                
+           	</item>
+         	<!--PMS Test suites
+            <item stop-on-fail="false"> <name>TAF Executor</name> 
+                <component>com.ericsson.pms.test-pom-pms_taf</component>
+                <suites>CDBsuites.xml</suites>
+                
+            </item>
+-->
+         	<!-- DDC Test suites-->
+            <item stop-on-fail="false"> <name>TAF Executor</name> 
+ 				<component>com.ericsson.oss.ddc:ERICTAFddcoss_CXP9031250:1.0.66</component>
+                <suites>DDCGenericInterface.xml,FunctionalTest_Functional.xml</suites>
+                
+            </item>
+	 		<!-- AXM test suites -->
+            <item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.oss.axm.testware:ERICTAFaxm_CXP9031036:1.0.215</component>
+                <suites>Network_ElementConnectivity_Functional.xml</suites>
+                
+            </item>
+
+        	<!-- COMNIF test suites -->
+           	<item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.oss.cominf.testware:ERICTAFcominfci_CXP9031155:1.0.223</component>
+                <suites>CominfCdbsuites.xml</suites>
+                
+           	</item>
+
+         	<!-- NSS test suites -->
+           	<item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.oss.shm.taf.testware:ERICTAFNSS_CXP9030937:1.0.295</component>
+                <suites>ATT_Samplesuites.xml</suites>
+                
+           	</item>
+
+         	<!-- PCI test suites -->
+           	<item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.oss.pci.testware:ERICTAFpci_CXP9031020:1.0.318</component>
+                <suites>pcicdb-suites.xml</suites>
+                
+            </item>            
+
+         	<!-- ARNE-VCDB test suites -->
+            <item stop-on-fail="false"> <name>TAF Executor</name>
+                <component>com.ericsson.oss.arne.testware:ERICTAFarne_CXP9030956:1.0.119</component>
+                <suites>ARNE-VCDB_suites.xml</suites>
+                
+            </item>
+	</item-group>
+  </item-group>
+  </item-group>
+</schedule>

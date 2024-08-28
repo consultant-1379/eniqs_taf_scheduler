@@ -1,0 +1,9 @@
+<schedule>
+    <!-- CEX Test All Suite-->
+    <item> 
+        <component>com.ericsson.oss.cex.test-pom-cex</component>
+        <suite>cex-taf-suite.xml,cex-new-suite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

@@ -1,0 +1,8 @@
+<schedule>
+    <!-- Team Network Test Suite-->
+    <item> 
+        <component>com.ericsson.pms.test-pom-pms_taf</component>
+        <suite>CDBSuite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

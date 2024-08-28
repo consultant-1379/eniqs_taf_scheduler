@@ -1,0 +1,7 @@
+<schedule>
+    <item>
+        <component>com.ericsson.oss.wranmom.test-pom-wranmom-taf-project</component>
+        <suite>wranmom-taf-suite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

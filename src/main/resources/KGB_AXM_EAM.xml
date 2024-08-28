@@ -1,0 +1,28 @@
+<schedule>
+     <!-- Network Test Suite-->
+     <item>
+         <component>com.ericsson.oss.axm.test-pom-axm_test</component>
+         <suite>AxmTestSuite.xml</suite>
+         <stop_on_fail>false</stop_on_fail>
+     </item>
+     <item> 
+         <component>com.ericsson.oss.axm.test-pom-axm_test</component>
+         <suite>CLISuite.xml</suite> 
+         <stop_on_fail>false</stop_on_fail>
+     </item>
+     <item>
+         <component>com.ericsson.oss.axm.test-pom-axm_test</component>^M
+         <suite>TrussCollection.xml</suite>^M
+         <stop_on_fail>false</stop_on_fail>^M
+     </item>
+     <item>
+         <component>com.ericsson.oss.axm.test-pom-axm_test</component>
+         <suite>Network_ElementConnectivity_Functional.xml</suite>
+         <stop_on_fail>false</stop_on_fail>
+     </item>
+     <item>
+	    <component>com.ericsson.cifwk.taf.cdb-manual</component>
+	    <suite>manual_test.xml</suite>
+	    <stop_on_fail>false</stop_on_fail>
+     </item>
+</schedule>

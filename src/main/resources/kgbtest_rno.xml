@@ -1,0 +1,8 @@
+<schedule>
+<item>
+<component>com.ericsson.oss.rno.test-pom</component>
+<suite>Automation.xml</suite>
+<stop_on_fail>false</stop_on_fail>
+</item>
+</schedule>
+

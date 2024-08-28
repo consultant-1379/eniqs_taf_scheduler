@@ -1,0 +1,14 @@
+<schedule>
+
+    <item>
+        <component>com.ericsson.oss.grancm.test-pom-grancm_test</component>
+        <suite>grancmbsmtest-suite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+        <item stop-on-fail="false" timeout-in-seconds="200">
+        <name>CDB tests</name>
+		<component>com.ericsson.cifwk.taf.cdb-manual</component>
+		<suite>manual_test.xml</suite>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+</schedule>

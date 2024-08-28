@@ -1,0 +1,9 @@
+<schedule>
+    <!-- DNS Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.dc.test-pom-dc-testware</component>
+        <suite>dcCDBSuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

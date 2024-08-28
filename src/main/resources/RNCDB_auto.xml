@@ -1,0 +1,26 @@
+<schedule>
+<!--
+	<item>
+                <component>com.ericsson.pms.test-pom-pms_taf</component>
+                <suite>GpehRncSuite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+-->
+
+      <!--SMO Test Suite-->
+	
+	<item>
+                <component>com.ericsson.oss.smo.test-pom-smo_taf_test</component>
+                <suite>RNCDB_Automation_Transaction.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+      
+      <!--FM Test Suite-->
+<!--
+        <item>
+                <component>com.ericsson.oss.fm.test-pom-FM_test</component>
+                <suite>RNCDB.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>	
+-->
+</schedule>

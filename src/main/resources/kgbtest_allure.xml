@@ -1,0 +1,11 @@
+<schedule>
+    <!-- BCG Allure Test Suite-->
+
+    <item> 
+        <component>com.ericsson.bcg.test-pom</component>
+        <suite>kgbExport.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+
+</schedule>

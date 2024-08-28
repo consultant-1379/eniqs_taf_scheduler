@@ -1,0 +1,8 @@
+<schedule>
+     <!-- Network Test Suite-->
+     <item>
+         <component>com.ericsson.oss.axm.test-pom-axm_test</component>
+         <suite>Network_ElementConnectivity_Functional.xml</suite>
+         <stop_on_fail>false</stop_on_fail>
+     </item>
+</schedule>

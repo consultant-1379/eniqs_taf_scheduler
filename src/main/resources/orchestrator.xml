@@ -1,0 +1,9 @@
+<schedule>
+    <!-- CEX Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.orchestrator.test-pom-orchestrator_taf</component>
+        <suite>UpgradeSuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

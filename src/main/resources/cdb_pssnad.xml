@@ -1,0 +1,10 @@
+<schedule>
+
+ <!--PSSNAD Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.pssnad.test-pom-pssnad-testware</component>
+        <suite>pssnadCDBSuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

@@ -1,0 +1,9 @@
+<schedule>
+    <!-- PCPB Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.pcpb.test-pom-pcpb-testware</component>
+        <suite>pcpbCDBSuite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+</schedule>

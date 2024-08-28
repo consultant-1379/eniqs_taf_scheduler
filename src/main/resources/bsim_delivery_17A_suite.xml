@@ -1,0 +1,8 @@
+<schedule>
+	<!-- BSIM 17A Delivery Suite.-->
+	<item>
+		<component>com.ericsson.oss.bsim.new.plm.test-pom</component>
+		<suite>Bsim_KGB_17A_Suite.xml</suite>
+		<stop_on_fail>false</stop_on_fail>
+	</item>
+</schedule>

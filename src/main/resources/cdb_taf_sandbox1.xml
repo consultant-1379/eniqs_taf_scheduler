@@ -1,0 +1,50 @@
+<schedule>
+    <item>
+        <component>com.ericsson.oss.grancm.test-pom-grancm_test</component>
+        <suite>grancmbsmVCDBtest-suite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+<!--
+           <item>
+               <component>com.ericsson.oss.cex.test-pom-cex</component>
+               <suite>cex-kgb-suite.xml</suite>
+               <stop_on_fail>false</stop_on_fail>
+         </item>
+          <item>
+              <component>com.ericsson.oss.security.test-pom</component>
+              <suite>sandbox_suite.xml</suite>
+              <stop_on_fail>false</stop_on_fail>
+          </item>
+
+          <item>
+              <component>com.ericsson.oss.cms.test-pom-cms-taf</component>
+              <suite>CdbSuite.xml</suite>
+              <stop_on_fail>false</stop_on_fail>
+         </item>
+
+           <item>
+              <component>com.ericsson.oss.fm.test-pom-FM_test</component>
+              <suite>ATNTTOL.xml</suite>
+              <stop_on_fail>false</stop_on_fail>
+         </item>
+
+     <item>
+        <component>com.ericsson.oss.arne.test-pom-ARNE_test</component>
+        <suite>ARNE-VCDB_Suite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+    <item>
+        <component>com.ericsson.oss.pci.test-pom-pci_taf</component>
+        <suite>pcicdb-suite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+
+         <item>
+                <component>com.ericsson.oss.shm.taf.test-pom</component>
+                <suite>ATT_SampleSuite.xml</suite>
+                <stop_on_fail>false</stop_on_fail>
+        </item>
+-->
+</schedule>

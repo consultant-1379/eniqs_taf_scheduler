@@ -1,0 +1,7 @@
+<schedule>
+    <item>
+        <component>com.ericsson.oss.plugins.test-pom-plugins-testware</component>
+        <suite>TestValidationSuite.xml</suite>
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>

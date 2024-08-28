@@ -1,0 +1,8 @@
+<schedule>
+    <!-- ARNE KGB Test Suite-->
+    <item> 
+        <component>com.ericsson.oss.arne.test-pom-ARNE_test</component>
+        <suite>ARNE-KGB_Suite.xml</suite> 
+        <stop_on_fail>false</stop_on_fail>
+    </item>
+</schedule>
